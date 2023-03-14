@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/viewtasks"
+        android:title="Show Tasks"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_show_tasks"/>
+    <item
+        android:id="@+id/logOut"
+        android:title="Log OUT"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_logout"/>
+
+
+</menu>
